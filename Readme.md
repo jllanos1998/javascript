@@ -4,3 +4,5 @@
 * Tipos de datos.
 * Variables.
 * Cadenas de textos.
+* Numbers o numeros.
+* Booleanos.

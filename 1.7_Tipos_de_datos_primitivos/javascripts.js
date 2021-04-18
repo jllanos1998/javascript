@@ -11,3 +11,9 @@
 // }else if(typeof valor === 'number'){
 //     console.log('ingresaste un valor numero',valor)
 // }
+
+
+let cadena = '7'
+let numero = '20'
+let resultado =  numero  * (cadena);
+console.log(resultado)

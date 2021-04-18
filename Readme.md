@@ -2,4 +2,4 @@
 ## Temas a visualizar
 * Introduccion javascripts.
 * Tipos de datos.
-* Variable.
+* Variables.

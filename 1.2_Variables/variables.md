@@ -6,6 +6,7 @@
 * scope: Hasta donde la variable puede acceder.
 * Sintaxis: scope(let,var,const)nombre = tipodedato.
 * var: es una variable de ambito global.(Ya no se debe utilizar var debido, es una mala practica)
+* const : es una variable que no se puede modificar en el entorno primitivo, Es recomendable utilizarlo con datos compuestos.
 * let: es una variable de ambito de bloque.
 * El objeto window es el objeto global de los navegadores.
 ~~~

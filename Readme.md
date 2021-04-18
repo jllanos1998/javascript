@@ -6,3 +6,4 @@
 * Cadenas de textos.
 * Numbers o numeros.
 * Booleanos.
+* Tipo de datos Primitivos.

@@ -1,4 +1,4 @@
-#Aprendiendo Javascript Desde 0
-##Temas a visualizar
+# Aprendiendo Javascript Desde 0
+## Temas a visualizar
 **Introduccion javascripts**
 **Tipos de datos**

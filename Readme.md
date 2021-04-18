@@ -3,3 +3,4 @@
 * Introduccion javascripts.
 * Tipos de datos.
 * Variables.
+* Cadenas de textos.

@@ -8,3 +8,4 @@
 * Booleanos.
 * Tipo de datos Primitivos.
 * Funciones .
+* Arreglos.

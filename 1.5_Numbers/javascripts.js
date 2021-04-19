@@ -11,3 +11,10 @@
 // console.log(typeof parseInt(float))
 // console.log(typeof(float))
 // console.log(typeof(parseInt(numero)))
+
+// let num1 = 20.54;
+//  num1 = '92.5'
+//  let num2 = parseFloat(num1);
+// console.log(typeof num1);
+// let convertir = parseInt(num1)
+// console.log(`tipo de dato es ${typeof parseFloat(num2)} ${num2}`)

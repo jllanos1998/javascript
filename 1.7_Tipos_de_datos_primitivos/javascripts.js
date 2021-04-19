@@ -13,7 +13,18 @@
 // }
 
 
-let cadena = '7'
-let numero = '20'
-let resultado =  numero  * (cadena);
-console.log(resultado)
+// let cadena = '7'
+// let numero = '20'
+// let resultado =  numero  * (cadena);
+// console.log(resultado)
+
+// let numero;
+// let numero2 = null;
+
+// let n1 = 30;
+// let n2 = 'ajksdaskjd';
+// console.log(n1*n2); 
+
+// let num1 = '20';
+// let num2 = '50';
+// console.log(num1 / num2);

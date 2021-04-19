@@ -7,3 +7,4 @@
 * Numbers o numeros.
 * Booleanos.
 * Tipo de datos Primitivos.
+* Funciones .

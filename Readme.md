@@ -12,3 +12,4 @@
 * Objetos.
 * Tipos de Operadores.
 * Condicionales.
+* Loops 

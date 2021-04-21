@@ -10,3 +10,5 @@
 * Funciones .
 * Arreglos.
 * Objetos.
+* Tipos de Operadores.
+* Condicionales.

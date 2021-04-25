@@ -13,3 +13,8 @@
 * Tipos de Operadores.
 * Condicionales.
 * Loops 
+* Programacion Orientada A Objetos.
+* Objeto Console.
+* Objeto Math
+* Operadores de Cortocircuito.
+* Expresiones Regular.

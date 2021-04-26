@@ -18,3 +18,5 @@
 * Objeto Math
 * Operadores de Cortocircuito.
 * Expresiones Regular.
+* Modulos.
+* Ejercicios De logica de programacion.

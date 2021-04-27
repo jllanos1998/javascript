@@ -49,7 +49,7 @@
 //     if(typeof texto !== 'string'){
 //         return console.error(`Ingresaste una valor de tipo ${typeof texto} debes ingresar un valor de tipo strings`)
 //     }
-   
+
 //     let convertidor = texto.split(' ');
 //     return console.log(convertidor)
 // }
@@ -101,12 +101,12 @@
 // console.log(invertirPalabra('hola mundo'))
 
 // const invertirCadena = cadena => cadena.split("").reverse().join("");
- 
+
 // let cadena = "Hola";
 // console.log("Cadena:", invertirCadena(cadena));
 // let cadena = "Hola, mi nombre es Antonio";
 // let cadenarevertida = "";
-   
+
 
 // for(let i = cadena.length-1; i>=0; i--)
 // {
@@ -161,7 +161,7 @@
 //     }else{
 //         return console.log('no es una frase polidromo')
 //     }
-    
+
 // }
 
 
@@ -190,19 +190,19 @@
 // const polindromo = (texto = "") => {
 //     if(!texto)
 //     return console.warn("no es una frase");
-    
+
 //     let poli = texto.split("").reverse().join("");
-    
+
 //     if (texto === poli)
 //     console.info(`Si es polindromo ${texto}, palabra al reves ${poli}`);
-    
+
 //     if(texto !== poli)
 //     console.info(`No es polindromo ${texto}, palabra al reves ${poli}`);
-     
-    
+
+
 //     }
-    
-    
+
+
 //     polindromo("hola mundo");
 //     polindromo("ana");
 
@@ -284,7 +284,7 @@
 //     if(typeof min !== 'number'){
 //        return console.error(`Ingresaste un valor ${typeof min} debes ingresar un numero`)
 //     }
-  
+
 //     let numero = Math.round(Math.random()*(max - min) + min);
 //     return console.log(numero)
 // }
@@ -311,3 +311,137 @@
 
 // capicua(3003)
 // 11) Programa una función que calcule el factorial de un número (El factorial de un entero positivo n, se define como el producto de todos los números enteros positivos desde 1 hasta n), pe. miFuncion(5) devolverá 120.
+
+// function factorial(numero){
+//     if(numero === undefined){
+//         return console.error('Debes llenar los parametros no pueden estar vacios.')
+//     }
+//     if(Math.sign(numero) === -1){
+//         return console.error('No puedes ingresar valores negativos')
+//     }
+//     if(typeof numero !== 'number'){
+//        return console.warn(`Ingresaste un valor de tipo ${typeof numero} y debes ingresar un valor numerico`)
+//     }
+//     let factorialTotal=1;
+//     for(let i=1; i<=numero; i++){
+//         factorialTotal = i * factorialTotal;
+//         console.log(factorialTotal)
+//     }
+//     return console.log(factorialTotal)
+// }
+// factorial()
+
+// 12) Programa una función que determine si un número es primo (aquel que solo es divisible por sí mismo y 1) o no, pe. miFuncion(7) devolverá true.
+
+// function numeroPrimo(numero){
+//     if(numero===0 || numero === 1 || numero === 4){
+//         return false
+//     }
+//     for(let x =2;x < numero / 2; x++){
+//         if(numero % x == 0){
+//             return false
+//         }else{
+//             return true
+//         }
+//     }
+// }
+
+// console.log(numeroPrimo(21))
+// let numero=parseInt(prompt('Ingrese el numero: '));
+
+// let ban=false
+// for(let i=2;i<numero;i++){
+//   if(numero%i==0){
+//     ban=true;
+//     break;
+//   }
+// }
+
+// if(ban){
+//   console.log('No primo')
+// }else{
+//   console.log('Es primo')
+// }
+
+
+
+
+// 13) Programa una función que determine si un número es par o impar, pe. miFuncion(29) devolverá Impar.
+
+// function parImpar(numero){
+//     if(Math.sign(numero) === -1){
+//         return console.error('Haz ingresado un valor negativo , solamente puedes ingresar valores positivos')
+//     }
+//     if(numero === undefined){
+//        return console.warn('debes llenar los parametros con un valor de tipo numero no pueden quedar vacios')
+//     }
+//     if(typeof numero !== 'number'){
+//         console.error(`el valor de tipo ingresado es ${typeof numero} debes ingresar un valor numerico `)
+//     }
+//     if( numero % 2== 0){
+//         return console.log(`${numero} es par `)
+//     }else{
+//         return console.log(`${numero} es impar`)
+//     }
+// }
+
+// parImpar(20);
+// formular : Fórmula	
+//(0 °C × 9/5) + 32 = 32 °F
+
+// 14) Programa una función para convertir grados Celsius a Fahrenheit y viceversa, pe. miFuncion(0,"C") devolverá 32°F.
+
+// function convertirGrador(grados) {
+//     if (Math.sign(grados) === -1) {
+//         return console.error('Haz ingresado un valor negativo , solamente puedes ingresar valores positivos')
+//     }
+//     if (grados === undefined) {
+//         return console.warn('debes llenar los parametros con un valor de tipo numero no pueden quedar vacios')
+//     }
+//     if (typeof grados !== 'number') {
+//         console.error(`el valor de tipo ingresado es ${typeof grados} debes ingresar un valor numerico `)
+        
+
+//     }
+//     let formula = (grados * 1.8) + 32;
+//         return console.log(`${formula} F`)
+//     }
+
+// convertirGrador(50)
+
+// 15) Programa una función para convertir números de base binaria a decimal y viceversa, pe. miFuncion(100,2) devolverá 4 base 10.
+
+
+// const decimalBinario = (num = "", base = 2) => {
+//     let digitos = num.toString().split("").reverse();
+//     // console.log(digitos);
+//     let cont = 0;
+//     digitos.forEach((digito, index) => {
+//         // console.log(digito,index);
+//         cont += (digito * (base ** index));
+//         // console.log(cont);
+//     });
+//     return cont;
+// }
+// console.log(decimalBinario(10011));
+
+
+
+
+// 16) Programa una función que devuelva el monto final después de aplicar un descuento a una cantidad dada, pe. miFuncion(1000, 20) devolverá 800.
+
+// function descuento(monto,porcentaje){
+//     if(monto === undefined && porcentaje === undefined){
+//         return console.error('No puedes tener los campos vacios')
+//     }
+//     if(typeof monto !== 'number' && typeof porcentaje !== 'number'){
+//         return console.error(`ingresaste un valor de tipo ${typeof monto} debes ingresar un valor de tipo numero`)
+//     }
+    
+//     let caluculo = (porcentaje*monto) / 100;
+//     return console.log((monto - caluculo));
+// }
+
+// descuento(1000,20)
+
+// 17) Programa una función que dada una fecha válida determine cuantos años han pasado hasta el día de hoy, pe. miFuncion(new Date(1984,4,23)) devolverá 35 años (en 2020).

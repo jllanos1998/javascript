@@ -25,15 +25,15 @@
   .spinner {
     border: 4px solid rgba(0, 0, 0, .1);
     border-left-color: transparent;
-    width: 36px;
-    height: 36px;
+    width: 100px;
+    height: 100px;
   }
 
   .spinner {
     border: 4px solid rgba(0, 0, 0, .1);
     border-left-color: transparent;
-    width: 36px;
-    height: 36px;
+    width: 100px;
+    height: 100px;
     
     animation: spin 1s linear infinite;
   }
@@ -69,3 +69,17 @@
     cursor: pointer; 
     text-align: center;
 } 
+
+.eliminar{
+  border: 0;
+  outline: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.eliminar:hover{
+  background-color: rgb(221, 20, 20);
+}

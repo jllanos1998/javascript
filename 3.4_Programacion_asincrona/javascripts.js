@@ -86,15 +86,13 @@ function getPersona(){
     let edad;
     let sexo;
     let div = document.createElement('div');
-    let html;
     load()
     personas.forEach((valor)=>{
         setTimeout(()=>{
             nombre = valor['nombre'];
             edad = valor['edad']
             sexo = valor['sexo'];
-            div.innerHTML = html
-            html += `<div class=>
+            div.innerHTML += `<div class=>
             <h2>${nombre}</h2>
             <p>${edad}</p>
             <p>${sexo}</p>  

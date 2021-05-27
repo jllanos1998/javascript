@@ -28,4 +28,11 @@ console.log(arr);
 console.log(arr[0]);
 console.log(arr[9]);
 
+set.delete("HOla");
+console.log(set);
 
+console.log(set.has("hola"));
+console.log(set.has(19));
+
+set2.clear();
+console.log(set2);

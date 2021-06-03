@@ -25,4 +25,8 @@
 - Programacion asincrona.
 - Symbols
 - Sets
-  -Maps
+- Maps
+- WeakSets & WeakMaps
+- Iterables & Iterators
+- Generators
+- Proxies

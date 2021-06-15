@@ -1,4 +1,7 @@
 import scrollTopButton from "./dom/btn_scroll.js";
+import userDeviceInfo from "./dom/deteccion_dispositivos.js";
+import networkStatus from "./dom/deteccion_red.js";
+import webCam from "./dom/deteccion_webcam.js";
 import hamburgerMenu from "./dom/menu_hamburguesa.js";
 import responsiveMedia from "./dom/objeto_responsive.js";
 import responsiveTester from "./dom/prueba_responsive.js";
@@ -34,6 +37,9 @@ d.addEventListener('DOMContentLoaded',(e)=>{
 
     responsiveTester("responsive-tester");
 
+    userDeviceInfo("user-device");
+    webCam("webcam")
+
 })
 
 d.addEventListener('keydown',(e)=>{
@@ -41,3 +47,4 @@ d.addEventListener('keydown',(e)=>{
     moveBall(e,'.ball','.stage')
 })
 darkTheme(".dark-theme-btn","dark-mode")
+networkStatus();

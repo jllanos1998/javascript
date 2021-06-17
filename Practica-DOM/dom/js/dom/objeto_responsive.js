@@ -10,7 +10,7 @@ export default function responsiveMedia(id,mq,movileContent,desktopContent){
            
             d.getElementById(id).innerHTML = movileContent;
         }
-        console.log(e.matches)
+   
     }
     breakpoint.addListener(responsive)
     responsive(breakpoint)
